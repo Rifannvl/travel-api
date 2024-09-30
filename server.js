@@ -1,8 +1,22 @@
 const express = require("express");
 const cors = require("cors");
+const express = require("express");
+const cors = require("cors");
 
 const app = express();
 const PORT = 3000;
+
+app.use(
+  cors({
+    origin: "http://localhost:3001", // Ganti dengan URL frontend Anda
+    credentials: true, // Jika perlu untuk cookie atau header otorisasi
+  })
+);
+
+// Rute lainnya
+app.listen(PORT, () => {
+  console.log(`Server berjalan di http://localhost:${PORT}`);
+});
 
 app.use(cors());
 const destinations = [
