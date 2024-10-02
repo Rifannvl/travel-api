@@ -11,7 +11,8 @@ const destinations = [
     name: "Bali",
     description: "Pulau yang dikenal dengan pantai dan budayanya.",
     activities: ["Surfing", "Hiking", "Diving"],
-    image: "https://picsum.photos/600/400?random=1", // Gambar Bali
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pura_Ulun_Danu_Bratan%2C_2022.jpg/576px-Pura_Ulun_Danu_Bratan%2C_2022.jpg", // Gambar Bali
     price: 150,
     rating: 4.5,
   },
@@ -20,7 +21,8 @@ const destinations = [
     name: "Labuan Bajo",
     description: "Gerbang menuju Taman Nasional Komodo.",
     activities: ["Island Hopping", "Diving"],
-    image: "https://picsum.photos/600/400?random=2", // Gambar Labuan Bajo
+    image:
+      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ_6o2tC9D6h3Vg4XZMPZ5Uvc_DEk9sQC9sKhholVBaXIxDCriTuMvGFgiFx-sLbxXrDHHqI1wo3TtEryB-br6QaXW1E_nQB_37EuEZaA", // Gambar Labuan Bajo
     price: 120,
     rating: 4.7,
   },
@@ -29,7 +31,8 @@ const destinations = [
     name: "Banda Neira",
     description: "Sejarah yang kaya dan kehidupan laut yang menakjubkan.",
     activities: ["Snorkeling", "Historical Tours"],
-    image: "https://picsum.photos/600/400?random=3", // Gambar Banda Neira
+    image:
+      "https://mengenalindonesia.com/wp-content/uploads/2023/02/Banda-Neira-Uang-Seribu.webp", // Gambar Banda Neira
     price: 100,
     rating: 4.6,
   },
@@ -38,7 +41,8 @@ const destinations = [
     name: "Yogyakarta",
     description: "Pusat budaya Jawa, terkenal dengan warisannya.",
     activities: ["Temple Tours", "Culinary Experiences"],
-    image: "https://picsum.photos/600/400?random=4", // Gambar Yogyakarta
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg/576px-Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg", // Gambar Yogyakarta
     price: 90,
     rating: 4.8,
   },
@@ -47,7 +51,8 @@ const destinations = [
     name: "Komodo Island",
     description: "Rumah bagi komodo yang terkenal.",
     activities: ["Wildlife Watching", "Snorkeling"],
-    image: "https://picsum.photos/600/400?random=5", // Gambar Komodo Island
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Komodo_Island_north_aerial.jpg/520px-Komodo_Island_north_aerial.jpg", // Gambar Komodo Island
     price: 200,
     rating: 4.9,
   },
@@ -56,7 +61,8 @@ const destinations = [
     name: "Lombok",
     description: "Dikenal karena pantai dan air terjunnya yang menakjubkan.",
     activities: ["Surfing", "Hiking Mount Rinjani"],
-    image: "https://picsum.photos/600/400?random=6", // Gambar Lombok
+    image:
+      "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/bali-nusa-tenggara/west-nusa-tenggara/lombok/lombok1.jpg", // Gambar Lombok
     price: 110,
     rating: 4.5,
   },
@@ -66,7 +72,8 @@ const destinations = [
     description:
       "Surga bagi penyelam dengan keanekaragaman laut yang luar biasa.",
     activities: ["Diving", "Snorkeling"],
-    image: "https://picsum.photos/600/400?random=7", // Gambar Raja Ampat
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png", // Gambar Raja Ampat
     price: 250,
     rating: 4.9,
   },
@@ -75,7 +82,8 @@ const destinations = [
     name: "Sumba",
     description: "Pulau yang dikenal dengan budaya dan pemandangan alamnya.",
     activities: ["Surfing", "Cultural Tours"],
-    image: "https://picsum.photos/600/400?random=8", // Gambar Sumba
+    image:
+      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTtTfWWzN61AUQKM0FopTy1aooG3fZlBxZO1I8xKik6bSt3Sb-_SvScJuHiwW2GatFzg_G8vdM46eaW_hlNs_iK25LvHxO3QYcIsAKPtA", // Gambar Sumba
     price: 180,
     rating: 4.6,
   },
@@ -84,7 +92,8 @@ const destinations = [
     name: "Flores",
     description: "Dikenal dengan danau tiga warna di Kelimutu.",
     activities: ["Hiking", "Cultural Tours"],
-    image: "https://picsum.photos/600/400?random=9", // Gambar Flores
+    image:
+      "https://lh5.googleusercontent.com/p/AF1QipPcqO7MtsqXHkuLS8lvZ6G7DewSQKcIY29qB84r=w1080-h624-n-k-no", // Gambar Flores
     price: 130,
     rating: 4.7,
   },
@@ -93,7 +102,8 @@ const destinations = [
     name: "Tanjung Lesung",
     description: "Pantai indah dengan berbagai aktivitas air.",
     activities: ["Beach Activities", "Water Sports"],
-    image: "https://picsum.photos/600/400?random=10", // Gambar Tanjung Lesung
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tanjung_Lesung_in_the_Morning.jpg/1920px-Tanjung_Lesung_in_the_Morning.jpg", // Gambar Tanjung Lesung
     price: 110,
     rating: 4.5,
   },
@@ -102,16 +112,18 @@ const destinations = [
     name: "Maluku",
     description: "Dikenal dengan keindahan laut dan budayanya.",
     activities: ["Diving", "Cultural Tours"],
-    image: "https://picsum.photos/600/400?random=11", // Gambar Maluku
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Bukit_Desa_Kaibobo.jpg/576px-Bukit_Desa_Kaibobo.jpg", // Gambar Maluku
     price: 140,
     rating: 4.8,
   },
   {
     id: 12,
-    name: "Batam",
-    description: "Destinasi liburan dekat Singapura.",
-    activities: ["Shopping", "Water Sports"],
-    image: "https://picsum.photos/600/400?random=12", // Gambar Batam
+    name: "Sulawesi Islands",
+    description: "Pulau-pulau terluas di Indonesia.",
+    activities: ["Hiking", "Cultural tours"],
+    image:
+      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS35IS9-6g_MMNA4KZ1xJzq8vMq8l4UdNs81FtT6tHCpjXzcj25ufq6T6XNAtOxzDSAOAXZ07dYyf2zTvwTOghhovU3kwJlRtLNX6gGVg", // Gambar Sulawesi
     price: 70,
     rating: 4.2,
   },
@@ -120,7 +132,8 @@ const destinations = [
     name: "Gili Islands",
     description: "Tiga pulau kecil yang indah dan populer.",
     activities: ["Diving", "Snorkeling"],
-    image: "https://picsum.photos/600/400?random=13", // Gambar Gili Islands
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Gili_Islands_%26_Gunung_Rinjiani%2C_Lombok%2C_Indonesia.jpg/520px-Gili_Islands_%26_Gunung_Rinjiani%2C_Lombok%2C_Indonesia.jpg", // Gambar Gili Islands
     price: 160,
     rating: 4.5,
   },
@@ -129,7 +142,8 @@ const destinations = [
     name: "Jakarta",
     description: "Ibukota Indonesia dengan banyak tempat menarik.",
     activities: ["Shopping", "Sightseeing"],
-    image: "https://picsum.photos/600/400?random=14", // Gambar Jakarta
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jakarta_Skyline_Part_2.jpg", // Gambar Jakarta
     price: 80,
     rating: 4.0,
   },
@@ -138,7 +152,8 @@ const destinations = [
     name: "Surabaya",
     description: "Kota terbesar kedua di Indonesia.",
     activities: ["Culinary Tours", "Shopping"],
-    image: "https://picsum.photos/600/400?random=15", // Gambar Surabaya
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Taman_suroboyo.jpg/284px-Taman_suroboyo.jpg", // Gambar Surabaya
     price: 75,
     rating: 4.1,
   },
@@ -147,7 +162,8 @@ const destinations = [
     name: "Bandung",
     description: "Kota yang dikenal dengan cuaca sejuk dan pemandangan.",
     activities: ["Shopping", "Nature Tours"],
-    image: "https://picsum.photos/600/400?random=16", // Gambar Bandung
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Gedung_Sate_Bandung_Jawa_Barat.jpg/280px-Gedung_Sate_Bandung_Jawa_Barat.jpg", // Gambar Bandung
     price: 70,
     rating: 4.3,
   },
@@ -156,7 +172,8 @@ const destinations = [
     name: "Semarang",
     description: "Kota dengan banyak bangunan bersejarah.",
     activities: ["Cultural Tours", "Shopping"],
-    image: "https://picsum.photos/600/400?random=17", // Gambar Semarang
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lawang_Sewu_in_Semarang_City.jpg/2560px-Lawang_Sewu_in_Semarang_City.jpg", // Gambar Semarang
     price: 60,
     rating: 4.2,
   },
@@ -165,7 +182,8 @@ const destinations = [
     name: "Baliem Valley",
     description: "Lembah yang indah dengan budaya Papua yang kaya.",
     activities: ["Hiking", "Cultural Tours"],
-    image: "https://picsum.photos/600/400?random=18", // Gambar Baliem Valley
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/20170903_Papouasie_Baliem_valley_15.jpg/400px-20170903_Papouasie_Baliem_valley_15.jpg", // Gambar Baliem Valley
     price: 150,
     rating: 4.8,
   },
@@ -174,7 +192,8 @@ const destinations = [
     name: "Bunaken",
     description: "Tempat menyelam terbaik di Sulawesi.",
     activities: ["Diving", "Snorkeling"],
-    image: "https://picsum.photos/600/400?random=19", // Gambar Bunaken
+    image:
+      "https://lh5.googleusercontent.com/p/AF1QipPZHByBQ6uqqh8eke5rkTx4f36Goehz1eJBRvhb=w1080-h624-n-k-no", // Gambar Bunaken
     price: 130,
     rating: 4.7,
   },
@@ -183,7 +202,8 @@ const destinations = [
     name: "Sunda Kelapa",
     description: "Pelabuhan bersejarah di Jakarta.",
     activities: ["Sightseeing", "Cultural Tours"],
-    image: "https://picsum.photos/600/400?random=20", // Gambar Sunda Kelapa
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pinisi_Sunda_Kelapa.jpg/560px-Pinisi_Sunda_Kelapa.jpg", // Gambar Sunda Kelapa
     price: 50,
     rating: 4.3,
   },
